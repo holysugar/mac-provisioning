@@ -16,3 +16,6 @@
     state={{ item.state | default('present') }}
   with_items: homebrew_cask_packages
   when: homebrew_cask_packages
+
+- name: Clean Homebrew Cask packages
+  command: brew cask cleanup

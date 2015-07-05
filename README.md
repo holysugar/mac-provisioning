@@ -7,7 +7,28 @@ Usage
 
 1. clone this repository.
 2. edit playbook. list the managed software to variable.
-3. run `ansible-playbook`
+3. install XCode
+```
+sudo xcodebuild -license
+```
+4. install Homebrew
+```
+xcode-select --install
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew doctor
+brew update
+```
+5. install Ansible
+```
+brew install python
+brew install ansible
+```
+6. setting Homebrew Cask
+```
+echo 'export HOMEBREW_CASK_OPTS="--appdir=/Applications"' >> ~/.bash_profile
+source ~/.bash_profile
+```
+7. run `ansible-playbook -i hosts -vv mac-provisioning.yml`
 
 
 Example Playbook

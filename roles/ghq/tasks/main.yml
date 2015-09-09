@@ -1,0 +1,5 @@
+---
+
+- file: path={{ansible_home}}/bin state=directory
+
+- shell: "GOPATH={{ansible_home}} go get github.com/motemen/ghq"

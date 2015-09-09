@@ -5,6 +5,8 @@
   roles:
     - homebrew
     - homebrew-cask
+    - ricty
+    - ghq
   vars:
     # Tap external Homebrew repositories.
     #

@@ -39,10 +39,24 @@
       - zsh
       - zsh-completions
       - zsh-syntax-highlighting
+      - ack
+      - binutils
+      - autoconf
+      - gnu-sed
+      - mysql
+      - postgresql
+      - w3m
+      - wget
+      - awscli
+      - go
+      - tmux
+      - lv
+      - ag
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
       - caskroom/versions
+      - dictav/splhack
 
     # Managed Homebrew Cask packages.
     #
@@ -60,9 +74,19 @@
       - iterm2
       - java6
       - karabiner
-      - phpstorm
-      - rubymine
       - slack
       - sublime-text
       - vagrant
       - virtualbox
+      - limechat
+      - dropbox
+      - xld
+      - skitch
+      - sourcetree
+      - evernote
+      - steam
+      - boot2docker
+      - dash
+      - google-cloud-sdk
+
+

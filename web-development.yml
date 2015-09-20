@@ -13,6 +13,7 @@
     # e.g.
     # - homebrew/binary
     homebrew_repositories:
+      - peco/peco
 
     # Managed Homebrew packages.
     #
@@ -54,6 +55,11 @@
       - tmux
       - lv
       - ag
+      - peco
+      - pwgen
+      - imagemagick
+      - qt4  # capybara-webkit
+
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:

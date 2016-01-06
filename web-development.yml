@@ -59,7 +59,9 @@
       - pwgen
       - imagemagick
       - qt4  # capybara-webkit
-
+      - memcached
+      - cmake
+      - casperjs
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
@@ -80,7 +82,6 @@
       - google-chrome
       - google-japanese-ime
       - iterm2
-      - java6
       - karabiner
       - slack
       - sublime-text
@@ -93,8 +94,13 @@
       - sourcetree
       - evernote
       - steam
-      - boot2docker
+      - dockertoolbox
       - dash
       - google-cloud-sdk
+      #- genymotion
+      #- java6
+      - java
+      - android-studio
+      - gitify
 
 
